@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Sevillana&display=swap');
+
+body{
+    background: url(https://wallpapers.com/images/hd/animated-space-1920-x-1080-background-7we5heeuctp5g243.jpg);
+    background-position: center;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cardCss {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+
+.postCards h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.);
+}
